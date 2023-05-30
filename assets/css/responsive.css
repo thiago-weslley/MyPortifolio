@@ -13,7 +13,7 @@
     }
 }
 
-@media (min-width: 40em) {
+@media (min-width: 35em) {
     
     main .container {
         width: 52.0rem;
@@ -58,33 +58,6 @@
 }
 
 @media (min-width: 60em) {
-
-    main .container {
-        width: 70.0rem;
-    }
-
-    main .container h1 {
-        font-size: 2.8rem;
-    }
-    
-    main .container .content {
-        gap: 3.0rem;
-    }
-
-    main .container .content ul li a{
-        font-size: 3.6rem;
-    }
-    
-    main .container .content h2 {
-        font-size: 8.8rem;
-    }
-
-    main .container h2 {
-        font-size: 12.5rem;
-    }
-}
-
-@media (min-width: 100em) {
 
     main .container {
         width: 90.0rem;
