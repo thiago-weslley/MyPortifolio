@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;600;700;900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+:root {
+    font-size: 62.5%;
+}
+
+body {
+    background-image: radial-gradient(circle, #4372b7, #455d96, #404a76, #363857, #2a283b);
+    background-repeat: no-repeat;
+    color: #fafafa;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.6rem;
+}
+
+main {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+main .container {
+    width: 85%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+main .container h1 {
+    font-size: 2.0rem;
+    text-shadow: 3px 3px 6px rgba(0,0,0,0.6);
+}
+
+main .container .content {
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+main .container .content h2 {
+    font-size: 4.7rem;
+    line-height: 4.0rem;
+    text-transform: uppercase;
+    text-shadow: 6px 4px 5px rgba(0,0,0,0.6);
+}
+
+main .container .content ul {
+    margin-top: 1.8rem;
+    margin-bottom: 1.8rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3.0rem;
+}
+
+main .container .content ul li a ion-icon{
+    color: rgb(255, 219, 153);
+    font-size: 3.5rem;
+    transition: .2s ease;
+    filter: drop-shadow(5px 5px 4px rgba(0, 0, 0, .6));
+}
+
+main .container .content ul li a:hover ion-icon {
+    transform: translateY(-10px);
+    
+}
+
+main .container h2 {
+    font-size: 4.7rem;
+    text-transform: uppercase;
+    text-shadow: 6px 4px 5px rgba(0,0,0,0.6);
+}
+
+main .container p {
+    margin-top: 2.0rem;
+    text-transform: uppercase;
+    font-size: 1.2rem;
+    text-align: center;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.6);
+}
