@@ -12,8 +12,21 @@
     font-size: 62.5%;
 }
 
+body::before {
+    content: '';
+    position: absolute;
+    background-image: url('../img/home_background.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+    filter: brightness(0.5);
+    z-index: -9;
+}
+
 body {
-    background-image: radial-gradient(circle, #4372b7, #455d96, #404a76, #363857, #2a283b);
+    /* background-image: radial-gradient(circle, #4372b7, #455d96, #404a76, #363857, #2a283b); */
     background-repeat: no-repeat;
     color: #fafafa;
     font-family: 'Poppins', sans-serif;
@@ -70,7 +83,7 @@ main .container .content ul li a ion-icon{
 }
 
 main .container .content ul li a:hover ion-icon {
-    transform: translateY(-10px);
+    transform: translateY(-12px);
     
 }
 
